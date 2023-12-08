@@ -1,0 +1,23 @@
+body {
+ 
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #fafbff;
+  background-image: url('https://raw.githubusercontent.com/gurhanalan/JS-Project-Interactive-Pricing-Slide/61d9bec5bb12d306486dd361be89245cb03406c6/images/bg-pattern.svg');
+  background-repeat: no-repeat;
+  background-size: 100vw 55vh;
+  
+}
+
+
+.card {
+  background-color: white;
+  width: 40rem;
+  box-shadow: 0 2rem 3rem rgba(41, 51, 86, 0.281);
+  border-radius: 1rem;
+  padding: 3rem;
+}
+

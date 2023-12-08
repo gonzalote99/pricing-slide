@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>pricing slide</title>
+</head>
+<body>
+  <div class="title">
+   <h1>pricing slide</h1>
+  </div> 
+
+  <div class="card">
+   <form class="card__upper">
+    <h3 class="card__upper__page-views">100</h3>
+    <div class="card__upper__pricing">
+     <h2 class="card__upper__price">16.00</h2>
+     <p class="card__upper__period">month</p>
+    </div>
+    <input
+     type="range"
+     name=""
+     id="price-range"
+     class="card__upper__range"
+     min="1"
+      max="5"
+      step="1"
+     >
+     <div class="card__upper__billing">
+      <p>monthly billing</p>
+      <div class="card__upper__billing__checkbox">
+        <input type="checkbox" name="" id="billing">
+        <label for="billing"></label>
+      </div>
+      <p class="card__upper__billing__yearly">yearly billing</p>
+     </div>
+   </form>
+
+   <div class="card__lower">
+    <div class="card__lower__text-container">
+       <div class="card__lower__text-box">
+          <img src="https://raw.githubusercontent.com/gurhanalan/JS-Project-Interactive-Pricing-Slide/61d9bec5bb12d306486dd361be89245cb03406c6/images/icon-check.svg" alt="check">
+          <p>unlimited websites</p>
+       </div> 
+       <div class="card__lower__text-box">
+        <img src="https://raw.githubusercontent.com/gurhanalan/JS-Project-Interactive-Pricing-Slide/61d9bec5bb12d306486dd361be89245cb03406c6/images/icon-check.svg" alt="check">
+        <p>100% data </p>
+     </div> 
+     <div class="card__lower__text-box">
+      <img src="https://raw.githubusercontent.com/gurhanalan/JS-Project-Interactive-Pricing-Slide/61d9bec5bb12d306486dd361be89245cb03406c6/images/icon-check.svg" alt="check">
+      <p>email reports</p>
+   </div> 
+    </div>
+    <button class="card__lower__btn">start trial</button>
+   </div>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
